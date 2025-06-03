@@ -1,53 +1,118 @@
-# Next.js & HeroUI Template
+# GORGON - NFT Dashboard
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+<div align="center">
+  <img src="/public/gorgon_logo.svg" alt="Gorgon Logo" width="120" height="120" />
+  <h1>GORGON NFT Platform</h1>
+  <p>A modern, sleek NFT dashboard built with Next.js and HeroUI</p>
+</div>
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+<div align="center">
+  
+  ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+  ![HeroUI](https://img.shields.io/badge/HeroUI-v2-blue?style=for-the-badge)
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwindcss)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-4-blue?style=for-the-badge&logo=typescript)
+  
+</div>
 
-## Technologies Used
+## ✨ Features
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- 🎨 **NFT-Inspired Design** - Beautiful UI with glowing effects and gradients
+- 🌙 **Dark Mode** - Sleek dark theme optimized for NFT content
+- 📱 **Fully Responsive** - Mobile-first approach with animated sidebar
+- 👤 **User Profiles** - Integrated user authentication and profile management
+- 💰 **Coin Management** - Track your crypto assets and NFT portfolio
+- 🔥 **Premium Features** - Special features for premium members
 
-## How to Use
+## 🚀 Tech Stack
 
-### Use the template with create-next-app
+- **[Next.js 14](https://nextjs.org/)** - React framework with app directory
+- **[HeroUI v2](https://heroui.com/)** - Modern UI component library
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Tailwind Variants](https://tailwind-variants.org)** - Create UI variants with Tailwind
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+- **[next-themes](https://github.com/pacocoursey/next-themes)** - Theme management
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## 📦 Installation
+
+### Clone the repository
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+git clone https://github.com/yourusername/gorgon_project.git
+cd gorgon_project
 ```
 
 ### Install dependencies
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+Choose your preferred package manager:
 
 ```bash
+# Using npm
 npm install
+
+# Using yarn
+yarn
+
+# Using pnpm
+pnpm install
+
+# Using bun
+bun install
 ```
 
-### Run the development server
+### Setup pnpm (optional)
+
+If you are using `pnpm`, add the following to your `.npmrc` file:
+
+```
+public-hoist-pattern[]=*@heroui/*
+```
+
+Then run `pnpm install` again.
+
+## 🔧 Development
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+## 🏗️ Building for Production
 
 ```bash
-public-hoist-pattern[]=*@heroui/*
+npm run build
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+Start the production server:
 
-## License
+```bash
+npm start
+```
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+## 🎨 Customization
+
+### Styling
+
+The project uses Tailwind CSS for styling. You can customize the theme in the `tailwind.config.js` file.
+
+### Components
+
+All UI components are located in the `components` directory. The main layout is in `app/layout.tsx`.
+
+### Configuration
+
+Site configuration can be found in `config/site.ts`.
+
+## 📝 License
+
+Licensed under the [MIT license](LICENSE).
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by Your Name</p>
+</div>
